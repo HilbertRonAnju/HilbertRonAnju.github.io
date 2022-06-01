@@ -1,0 +1,59 @@
+/* @font-face{
+    font-family: 'kaiti';
+    src: url("../font/FZKai.woff2") format("woff2"),
+       url("../font/FZKai.woff") format("woff"),
+       url("../font/FZKai.ttf") format("truetype"),
+       url("../font/FZKai.eot") format("embedded-opentype"),
+       url("../font/FZKai.svg") format("svg"),
+       url("../font/FZKai.otf") format("opentype");
+} */
+@font-face{
+    font-family: 'kaiti';
+    src: url("../font/simkai.woff2") format("woff2"),
+       url("../font/simkai.woff") format("woff"),
+       url("../font/simkai.ttf") format("truetype"),
+       url("../font/simkai.eot") format("embedded-opentype"),
+       url("../font/simkai.svg") format("svg"),
+       url("../font/simkai.otf") format("opentype");
+}
+@font-face{
+    font-family: 'fangsong';
+    src: url("../font/FangSong.woff2") format("woff2"),
+       url("../font/FangSong.woff") format("woff"),
+       url("../font/FangSong.ttf") format("truetype"),
+       url("../font/FangSong.eot") format("embedded-opentype"),
+       url("../font/FangSong.svg") format("svg"),
+       url("../font/FangSong.otf") format("opentype");
+}
+@font-face{
+    font-family: 'FZQi_Fan';
+    src: url("../font/FZQi_Fan.woff2") format("woff2"),
+       url("../font/FZQi_Fan.woff") format("woff"),
+       url("../font/FZQi_Fan.ttf") format("truetype"),
+       url("../font/FZQi_Fan.eot") format("embedded-opentype"),
+       url("../font/FZQi_Fan.svg") format("svg"),
+       url("../font/FZQi_Fan.otf") format("opentype");
+}
+@font-face{
+    font-family: 'FZLiuKai';
+    src: url("../font/FZLiuKai.woff2") format("woff2"),
+       url("../font/FZLiuKai.woff") format("woff"),
+       url("../font/FZLiuKai.ttf") format("truetype"),
+       url("../font/FZLiuKai.eot") format("embedded-opentype"),
+       url("../font/FZLiuKai.svg") format("svg"),
+       url("../font/FZLiuKai.otf") format("opentype");
+}
+/* @font-face{
+    font-family: 'FZZhuan';
+    src: url("../font/FZZhuan.woff2") format("woff2"),
+       url("../font/FZZhuan.woff") format("woff"),
+       url("../font/FZZhuan.ttf") format("truetype"),
+       url("../font/FZZhuan.eot") format("embedded-opentype"),
+       url("../font/FZZhuan.svg") format("svg"),
+       url("../font/FZZhuan.otf") format("opentype");
+} */
+/* 如果加上下面一段，正文全文也会变成这个字体 */
+p{
+    font-family: 'fangsong';
+    font-size: 16.5px;
+}
